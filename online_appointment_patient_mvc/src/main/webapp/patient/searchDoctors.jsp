@@ -34,6 +34,6 @@
     </c:forEach>
     </table>
     <br/>
-
+	<a href="http://localhost:8080/logout">Log out</a>
 </body>
 </html>

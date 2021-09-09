@@ -20,7 +20,7 @@
 			<input type="text" name="reason" /> <br> </p>
 			<input type="submit" value="Search" /> <br>
 	</form> 
-	
+	<a href="http://localhost:8080/logout">Log out</a>
 	
 	
 </body>
