@@ -8,11 +8,30 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Search Doctors</title>
 </head>
+<style>
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:40px auto;
+    background: #9575CD ;
+    color:floralwhite;
+}
+</style>
 <body style="text-align:center;">
 
-<h1> Hi ${patientName} </h1>
+
+    <p><header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1> Hi ${patientName} </h1>
+                </div>
+                <div class="col-12 col-sm">
+                </div>
+            </div>
+        </div>
+    </header> </p>
 
 <h1>Doctors List</h1>
 	<p><label for="timeDate">Enter Date :</label><br>
@@ -34,6 +53,6 @@
     </c:forEach>
     </table>
     <br/>
-	<a href="http://localhost:8080/logout">Log out</a>
+	<a href="http://localhost:8087/logout">Log out</a>
 </body>
 </html>

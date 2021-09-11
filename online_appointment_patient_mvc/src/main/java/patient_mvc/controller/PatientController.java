@@ -28,7 +28,7 @@ public class PatientController {
 	
 	@Autowired
 	private RestTemplate restTemplate;
-	static final String PATIENT_MS_URL="http://localhost:8085/";
+	static final String PATIENT_MS_URL="http://localhost:8080/api/";
 	@Bean
 	public RestTemplate create()
 	{

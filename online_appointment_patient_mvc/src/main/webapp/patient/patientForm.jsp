@@ -19,7 +19,7 @@
 			<input type="submit" value="Log In" /> <br>
 	  </form> 
 	
-<a href="http://localhost:8080/register">Register here</a><br>
+<a href="http://localhost:8087/register">Register here</a><br>
 
 	
 	

@@ -2,11 +2,30 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Patient Registration</title>
 </head>
+<style>
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:40px auto;
+    background: #9575CD ;
+    color:floralwhite;
+}
+</style>
 <body style="text-align:center;">
 
-<h1>Patient Registration</h1>
+
+    <p><header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Patient Registration</h1>
+                </div>
+                <div class="col-12 col-sm">
+                </div>
+            </div>
+        </div>
+    </header> </p>
      
        
        
@@ -29,7 +48,7 @@
 				
 			<input type="submit" value="Register" /> <br>
 	</form>
-	<a href="http://localhost:8080/login">Login Here</a><br>
+	<a href="http://localhost:8087/login">Login Here</a><br>
 	
 	
 	
